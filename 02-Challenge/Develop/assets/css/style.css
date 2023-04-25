@@ -1,0 +1,134 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --dark: #13293d;
+  --light: #fff;
+  --navlink-color: #b9c6ae;
+  --blue: #287EC7;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px 10px 0px;
+  background-color: var(--dark);
+  width: 100%;
+}
+
+#name {
+  display: flex;
+  border-width: 20px;
+  border-style: solid;
+  border-color: var(--blue);
+  background-color: var(--blue);
+  color: black;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+  list-style: none;
+}
+
+.nav-item a {
+  display: flex;
+  background-color: unset;
+  color: var(--navlink-color);
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+.nav-item a:hover {
+  color: var(--light);
+}
+
+.introduction {
+  background-image: url("/02-Challenge/Develop/assets/images/StockImageBanner.jpg");
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.caption {
+  border-width: 15px;
+  border-style: solid;
+  border-color: var(--blue);
+  background-color: var(--blue);
+  color: var(--dark);
+  margin: 10px;
+}
+
+.meSection {
+  display: flex;
+  margin: 3% 10% 5% 10%;
+}
+
+.title {
+  text-align: end;
+  border-right: 3px solid var(--dark);
+  padding-right: 1%;
+}
+
+.content {
+  flex-wrap: wrap;
+  margin: 0% 15%;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 3%;
+}
+
+.grow {
+  padding-left: 10%;
+}
+
+.grow img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 3%;
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.contactList {
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+  list-style: none;
+}
+.contactItem {
+  display: flex;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 20px;
+  font-size: 17px;
+}
