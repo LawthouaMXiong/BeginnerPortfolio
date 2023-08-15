@@ -25,4 +25,4 @@ THEN I am presented with a responsive layout that adapts to my viewport<br />
 
 ## **Links to Portfolio**
 * GitHub Repository Link - https://github.com/LawthouaMXiong/Challenge2
-* GitHub Pages Deployed Link - https://lawthouamxiong.github.io/Challenge2/
+* GitHub Pages Deployed Link - https://lawthouamxiong.github.io/BeginnerPortfolio/
